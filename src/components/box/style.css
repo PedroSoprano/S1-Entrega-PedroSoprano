@@ -1,0 +1,27 @@
+body {
+  background-color: #f5f7fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.containerPrincipal {
+  display: flex;
+  height: 70vh;
+  width: 50em;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.containerForm {
+  background-color: #fff;
+  height: 100%;
+  width: 60%;
+}
+
+.containerSide {
+  background-color: #f7f9fa;
+  height: 100%;
+  width: 40%;
+}
