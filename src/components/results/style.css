@@ -1,0 +1,26 @@
+.titleResult {
+  color: #5b8ac5;
+  border-bottom: 1px solid #9bb8db;
+  width: 75%;
+  font-size: 23px;
+  font-style: italic;
+  padding-bottom: 5px;
+}
+
+.containerValue {
+  display: flex;
+}
+
+.containerResults {
+  width: 75%;
+}
+
+.description {
+  color: #b0cdf3;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.value {
+  color: #5b8ac5;
+}

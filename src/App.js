@@ -1,7 +1,11 @@
 import { Box } from "./components/box";
 
 function App() {
-  return <Box />;
+  return (
+    <>
+      <Box />
+    </>
+  );
 }
 
 export default App;

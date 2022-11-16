@@ -1,4 +1,5 @@
 import { Form } from "../form";
+import { Results } from "../results";
 import "./style.css";
 
 export const Box = () => {
@@ -7,7 +8,9 @@ export const Box = () => {
       <div className="containerForm">
         <Form />
       </div>
-      <div className="containerSide"></div>
+      <div className="containerSide">
+        <Results />
+      </div>
     </div>
   );
 };
