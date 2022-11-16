@@ -1,7 +1,9 @@
 form {
   height: 80%;
   width: 75%;
-  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 form > div > input {
@@ -13,10 +15,6 @@ form > div > input {
   padding-right: 10px;
   height: 35px;
   width: 95%;
-}
-
-form > div > input:selection {
-  background-color: aqua;
 }
 
 form > div > p {
@@ -35,10 +33,6 @@ form > div > label {
 .detail {
   font-size: 12px;
   color: lightgray;
-}
-
-.containerInput {
-  margin-bottom: 35px;
 }
 
 button {

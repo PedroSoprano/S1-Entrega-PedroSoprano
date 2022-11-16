@@ -3,10 +3,10 @@ import { createContext, useState } from "react";
 export const ResultsContext = createContext([]);
 
 export const ResultsProviders = ({ children }) => {
-  const [one, setOne] = useState(0);
-  const [fifteen, setFifteen] = useState(0);
-  const [thirty, setThirty] = useState(0);
-  const [ninety, setNinety] = useState(0);
+  const [one, setOne] = useState("0,0");
+  const [fifteen, setFifteen] = useState("0,0");
+  const [thirty, setThirty] = useState("0,0");
+  const [ninety, setNinety] = useState("0,0");
 
   return (
     <ResultsContext.Provider

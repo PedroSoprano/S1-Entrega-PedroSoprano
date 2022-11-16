@@ -11,7 +11,7 @@ export const Results = () => {
       <div className="containerResults">
         <div className="containerValue">
           <p className="description">
-            Amanhã: <span className="value">R$ {parseFloat(one)}</span>
+            Amanhã: <span className="value">R$ {one}</span>
           </p>
         </div>
         <div className="containerValue">
