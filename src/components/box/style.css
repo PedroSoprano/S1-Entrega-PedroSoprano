@@ -18,6 +18,9 @@ body {
   background-color: #fff;
   height: 100%;
   width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .containerSide {
